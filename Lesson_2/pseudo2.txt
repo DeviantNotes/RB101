@@ -1,0 +1,14 @@
+- Define a method that:
+  -Takes an array as an argument
+  -Flattens the array into a single string
+  -Returns concatenation
+
+START
+
+DEFINE method with an array as argument
+  -SET string_concat = ""
+  -FOR EACH in array
+    -DO string_concat << array[]
+  -RETURN string_concat
+
+END

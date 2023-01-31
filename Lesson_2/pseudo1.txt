@@ -1,0 +1,13 @@
+Define a method, integer_sum, that takes two arguments.
+
+Within the method, add together the two arguments and return the result.
+
+START
+
+SET method integer_sum(num1, num2)
+
+READ method arguments and add together the integers
+
+RETURN sum of integers
+
+END

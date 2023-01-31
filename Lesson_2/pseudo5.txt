@@ -1,0 +1,18 @@
+Define method array_merge that takes two arrays of equal length as arguments
+Merge by alternating between arr1 and then arr2
+
+START
+
+DEFINE method array_merge(arr1, arr2)
+  -SET iterator = 0
+  -SET arr1_iterator = 0
+  -SET arr2_iterator = 0
+  -SET merged_arr = []
+  -FOR EACH in arr1, arr2
+    -IF iterator == 0 or even
+      -DO  merged_arr << arr1[arr1_iterator], arr1_iterator +1
+    -ELSE
+      -DO merged_arr << arr2[arr2_iterator], arr2_iterator +1
+  -IF arr1_iterator == arr1 length && arr2_iterator == arr2 length, BREAK 
+  -RETURN merged_arr
+END

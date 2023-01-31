@@ -1,0 +1,15 @@
+Define method arr_every_other that takes an array as an argument
+  -Iterate through the collection
+    -Add every other item to a new array
+  -Return the new array
+
+START
+
+DEFINE arr_every_other[arr]
+  -SET new_arr = []
+  -FOR EACH in arr
+    -IF arr[] == 0 or even, new_arr << arr[]
+    -IF arr[] == odd, next
+  -RETURN new_arr
+
+END

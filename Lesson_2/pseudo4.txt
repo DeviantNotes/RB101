@@ -1,0 +1,24 @@
+Define method third_occurrence that takes a string as an argument
+  -Split the string into an array
+  -Iterate through the array
+    -For each occurrence of the target, raise counter by 1
+    -When counter reaches 3, return array[]
+    -If counter does not reach 3, return nil
+
+START
+
+DEFINE third_occurrence(string)
+  -SET arr = string split by character
+  -SET target_count = 0
+  -SET index_count = 0
+  -IF target_count >= 3, RETURN index_count
+  -IF index_count > string length, BREAK
+    -RETURN nil
+  -FOR EACH in arr
+    -SET index_count + 1
+    -IF arr[] == target
+      -DO target_count + 1
+    -ELSE
+      -DO next
+  
+END

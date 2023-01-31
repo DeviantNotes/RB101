@@ -1,0 +1,14 @@
+# Methods
+which_s: "Press 'C' for 'Scissors' and 'P' for 'Spock.'"
+# Main
+welcome: "Welcome to Rock, Paper, Scissors, Lizard, Spock!"
+first3: "   The first player to 3 wins becomes the Grand Winner!"
+tips:   "   You may use abbreviations to make your choices (such as r for Rock or sp for Spock)"
+invalid: "That's not a valid choice."
+pwin: "You won!"
+cwin: "Computer won!"
+tie: "It's a tie!"
+pgwin: "Player is the Grand Winner!"
+cgwin: "Computer is the Grand Winner!"
+again?: "Do you want to play again?"
+thanks: "Thanks for playing! Good bye!"
